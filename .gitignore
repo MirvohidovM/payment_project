@@ -131,3 +131,7 @@ dmypy.json
 
 #idea
 .idea/
+
+
+#virtual_environment
+venv_payment/
