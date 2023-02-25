@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import Product
 
 class ProductAdmin(admin.ModelAdmin):
-    fields = ['name', 'description', 'price']
+    fields = ['name', 'desc', 'price', 'thumbnail']
 
 
-admin.register(Product, ProductAdmin)
+admin.site.register(Product, ProductAdmin)

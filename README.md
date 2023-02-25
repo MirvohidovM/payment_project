@@ -1,1 +1,3 @@
 # payment_project
+
+.env :
